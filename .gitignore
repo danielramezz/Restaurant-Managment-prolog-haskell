@@ -1,0 +1,15 @@
+# Haskell build artifacts
+*.hi
+*.o
+dist/
+dist-newstyle/
+.stack-work/
+
+# Generated output files
+*.csv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
