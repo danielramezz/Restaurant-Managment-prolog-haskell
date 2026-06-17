@@ -137,6 +137,16 @@ Category "Food Supplies" [Item "rice" 1.2 (26,Jan,2026),
 
 > All outputs above were produced by running the actual code (SWI-Prolog 7.2.3 and WinHugs / Hugs 98) and match the specification's expected results.
 
+### Sample Runs
+
+**Prolog (SWI-Prolog)** — `group_ingredients`, `check_staff`, `schedule_all_reservations`, `needed_ingredients`, and CSV export:
+
+<p align="center"><img src="docs/prolog_run.png" width="820"></p>
+
+**Haskell (WinHugs)** — `mostPopularDish`, `calculateTotalExpenses`, `countCategoryItems`, `calculateDeliveryDates`, `summarizeAllDeliveries`, and `getDeliveryExpenses`:
+
+<p align="center"><img src="docs/haskell_run.png" width="820"></p>
+
 ## Repository Structure
 
 ```
